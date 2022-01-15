@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+  }
+
+body {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    flex: 1 0 auto;
+}
+
+#logoDefault{
+  
+  height: 40px;
+}
+
+#goRight{
+    margin-left: 500px; 
+}
+
+#chatbot:hover{
+    cursor: pointer;
+}
+
+.wrapper {
+    display: grid; 
+    
+    grid-template-rows: 1fr 1fr;  /*you can use px, %, auto etc. here*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left-top right-item" "left-bottom right-item";
+    
+    width: 100%;
+    height: 780px;
+  }
+  
+  .item1 {
+    grid-area: left-top;    
+  }
+  
+  .item2 {
+    grid-area: left-bottom;
+  }
+  
+  .item3 {
+    grid-area: right-item;
+  }

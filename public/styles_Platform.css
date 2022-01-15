@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+  }
+
+body {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    flex: 1 0 auto;
+}
+.loggedIn{
+  display: none;
+}
+
+.nav-wrapper{
+  background-color: purple
+}
+.page-footer{
+  background-color: purple
+}
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mock-Up Vermögensberater Frontend</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="http://localhost:3000/" class="brand-logo right">Logo</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="Terminbuchen.html">Termin buchen</a></li>
+          <li><a href="Onboarding.html">Onboarding</a></li>
+          <li><a href="Chatbot.html">Chatbot</a></li>
+          <li><a href="Widget_Example.html">Widget_Example</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="MainBodyDiv"> 
+
+      <div class="row s12" style="margin-top:40px; margin-left:10px">
+        <h3>Neuer Kunde?</h3>
+        <h6>Sind sie ein Neukunde und haben interesse an unseren Diensten, dann füllen sie folgende Felder aus 
+        uns wir werden uns bei Ihnen schnellst möglich melden.
+        </h6>
+      </div>
+
+      
+
+      <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="text" id="birthday" class="datepicker">
+                <label for="birthday">Geburtsdatum</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Strasse Hausnummer, PLZ, Ort" id="Adresse" type="email" class="validate">
+                <label for="Adresse">Adresse</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="tel" type="tel" class="validate">
+                <label for="tel">Telefonnummer</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="Risikobereitschaft" type="number" class="validate">
+                <label for="Risikobereitschaft">Risikobereitschaft von 0-5 </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="Anlagehorizont" type="number" class="validate">
+                <label for="Anlagehorizont">Anlagehorizont in Jahren</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="Erfahrung" type="number" class="validate">
+                <label for="Erfahrung">Wie viel Erfahrung haben sie? von 0-5</label>
+              </div>
+            </div>
+            <a class="waves-effect waves-light btn" style="margin-top: 30px; " >Absenden</a>
+          </form>
+        </div>
+    
+    </div>
+
+    <footer class="page-footer" id="bottomfooter">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Vermögensberater XYZ</h5>
+            <p class="grey-text text-lighten-4">Dies ist das Mock-Up einer möglichen Vermögensberater Webseite.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="Plattfrom_Termine.html">Plattfrom MockUp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2021 Vermögris
+        </div>
+      </div>
+    </footer>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="script.js"></script>
+  </body>
+</html>
